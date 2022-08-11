@@ -6,6 +6,8 @@ import java.util.List;
 
 public class TwoSum {
 
+    //https://leetcode.com/problems/two-sum/
+
     public static int[] twoSum(int[] nums, int target) {
         List<Integer> differences = new ArrayList<>();
 
