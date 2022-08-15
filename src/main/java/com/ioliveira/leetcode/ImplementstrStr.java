@@ -7,9 +7,7 @@ public class ImplementstrStr {
 
     public static int strStr(String haystack, String needle) {
 
-        final int i = haystack.indexOf(needle);
-
-        return i;
+        return haystack.indexOf(needle);
     }
 
     public static void main(String[] args) {
